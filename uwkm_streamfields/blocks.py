@@ -10,7 +10,7 @@ from modelcluster.fields import ParentalKey
 from wagtail.contrib.table_block.blocks import TableBlock
 from wagtail.core import blocks
 from wagtail.images.blocks import ImageChooserBlock
-from wagtail.forms.models import AbstractEmailForm, AbstractFormField
+from wagtail.contrib.forms.models import AbstractEmailForm, AbstractFormField
 from wagtail.docs.blocks import DocumentChooserBlock
 
 from .icons import IconChoiceBlock
