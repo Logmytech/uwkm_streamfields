@@ -8,7 +8,7 @@ from django.utils.translation import ugettext_lazy as _
 from modelcluster.fields import ParentalKey
 
 from wagtail.contrib.table_block.blocks import TableBlock
-from wagtail.wagtail.core import blocks
+from wagtail.core import blocks
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 from wagtail.wagtailforms.models import AbstractEmailForm, AbstractFormField
 from wagtail.wagtaildocs.blocks import DocumentChooserBlock
